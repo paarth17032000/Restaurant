@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    text-transform: capitalize;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.preloader{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    background-color: #686de0;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transition: all 1s ease;
+}
+
+.preloader-stop{
+    opacity: 0;
+    display: none;
+    pointer-events: none;
+}
+
+.preloader h3{
+    font-size: 2rem;
+    color: whitesmoke;
+    text-transform: capitalize;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.food{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-35%);
+    font-size: 35px;
+    opacity: 0;
+    animation: appear 1.5s ease;
+}
+
+@keyframes appear{
+    0%{
+        opacity: 1;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%,-35%);
+    }
+    95%{
+        top: 42%;
+        opacity: 1;
+        left: 50%;
+        transform: translate(-50%,-42%);
+    }
+    100%{
+        top: 49%;
+        opacity: 0;
+        left: 50%;
+        transform: translate(-50%,-49%);
+    }
+}
+
+.main{ 
+    display: none;
+    animation: all 1s ease;
+}
+
+.section-appear{
+    display: block;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css for preloader, landing page and other elements(info) -->
+    <link rel="stylesheet" href="info.css">
+    <link rel="stylesheet" href="landing.css">
+    <link rel="stylesheet" href="preloader.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <!-- preloader -->
+    <div class="preloader"></div> 
+    <!-- website -->
+    <!-- landing page -->
+    <section class="main">
+        <div class="grid-container">
+            <div class="sub-grid-container">
+                <nav class="d-flex justify-content-around align-items-center">
+                    <a href="#about">About</a>
+                    <a href="#contact-us">Contact Us</a>
+                    <a href="#products">Products</a>
+                </nav>
+                <div class="heading">
+                    <h1><span class="black">NOTHING</span> BRINGS <span class="black">PEOPLE</span>&nbsp; TOGETHER <span class="black">LIKE</span>&nbsp;<span class="black">GO</span> OD FOOD</h1>
+                    <a class="random" href="#">LET'S GO</a>
+                </div>
+                <div class="photo">
+                    <div><img class="one" src="./images/download (2).jpg" alt=""></div>
+                    <div><img class="two" src="./images/download (3).jpg" alt=""></div>
+                    <div><img class="three" src="./images/images (4).jpg" alt=""></div>
+                </div>
+            </div>
+            <div>
+                <i class="fas fa-shopping-cart"><span class="item-count">0</span></i>
+                <div>
+                    <img src="./images/car1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!-- About section -->
+    <section id="about">
+        <h1 class="about-head">ABOUT US</h1>
+        <div class="about-container">     
+            <h2 class="original">“ All you need is love. ...
+                if more of us valued food and cheer and song above hoarded gold, it would be a merrier world .....
+                this above all: to thine own self be true,
+                one cannot think well, love well, sleep well, if one has not dined well .....
+                we love you like a fat kid loves cake ! ”</h2>
+            <img src="./images/food.jpg" alt="about_img">
+        </div>
+    </section>
+    <!-- products section -->
+    <section id="products">
+        <h3>Food Products</h3>
+        <div class="food-section">
+        </div>
+    </section>
+    <!-- help section -->
+    <section id="contact-us">
+        <h1>CONTACT - US</h1>
+        <form action="">
+            <input type="text" placeholder="Firstname"><br>
+            <input type="text" placeholder="Lastname"><br>
+            <input type="email" name="email" id="email" placeholder="Email....."><br>
+            <input type="number" placeholder="Number"><br>
+            <textarea name="textarea" id="textarea" cols="20" rows="5"  placeholder="text....."></textarea><br>
+            <input type="submit" name="Submit">
+        </form>
+    </section>
+    <!-- cart -->
+    <div class="cart-overlay">
+        <div class="cart-content">
+            <div class="close clearfix">
+                <i class="fas fa-times-circle"></i>
+            </div>
+            <h2>CART</h2>
+            <div class="cart-section">
+            </div>
+            <div class="cart-footer clearfix">
+                <span class="total-cost clearfix"></span>
+                <button class="clear-cart">clear cart</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

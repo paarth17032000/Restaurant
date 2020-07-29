@@ -1,0 +1,49 @@
+{
+    "products":[
+        {
+            "id": 1,
+            "name":"burger",
+            "cost":30,
+            "image":"./images/proj1.jpg"
+        },
+        {
+            "id": 2,
+            "name":"pancakes",
+            "cost":45,
+            "image":"./images/proj2.jpg"
+        },
+        {
+            "id": 3,
+            "name":"chilli potato",
+            "cost":30,
+            "image":"./images/proj5.jpg"
+        },
+        {
+            "id": 4,
+            "name":"red velvet pastery",
+            "cost":35,
+            "image":"./images/proj6.jpg"
+        },
+        {
+            "id": 5,
+            "name":"cold coffee",
+            "cost":40,
+            "image":"./images/proj3.jpg"
+        },{
+            "id": 6,
+            "name":"pizza",
+            "cost":80,
+            "image":"./images/proj4.jpg"
+        },{
+            "id": 7,
+            "name":"pasta",
+            "cost":70,
+            "image":"./images/proj7.jpg"
+        },{
+            "id": 8,
+            "name":"cola",
+            "cost":25,
+            "image":"./images/proj8.jpg"
+        }
+    ]
+}
