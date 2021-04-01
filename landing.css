@@ -31,7 +31,7 @@ nav{
     position: absolute;
     color: white;
     z-index: 1;
-    left: 27%;
+    left: 25%;
 }
 
 .black {
@@ -43,8 +43,8 @@ nav{
     color: white;
     position: absolute;
     top: 84%;
-    left: 35%;
-    transform: translate(-35%,-84%);
+    left: 30%;
+    transform: translate(-30%,-84%);
     padding: 50px 140px;
     border-radius: 20px;
     letter-spacing: 2px;
@@ -222,3 +222,31 @@ img {
     outline: none;
     padding: 12px 24px;
 }
+
+@media screen and (max-width: 1400px) {
+    .cart-content{
+        width: 35vw;
+    }
+    .cart-overlay{
+        width: 35vw;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .cart-content{
+        width: 40vw;
+    }
+    .cart-overlay{
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .cart-content{
+        width: 95vw;
+    }
+    .cart-overlay{
+        width: 100vw;
+    }
+}
+
