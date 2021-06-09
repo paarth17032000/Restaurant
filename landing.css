@@ -1,54 +1,54 @@
 .grid-container {
-    display: grid;
-    height: 100vh;
-    overflow: hidden;
+    background: url('./images/car1.jpg') no-repeat fixed;
+    background-size: cover;
+    background-position: center;
+    /* display: grid; */
+    min-height: 100vh;
+    /* overflow: hidden; */
     width: 100%;
-    grid-template-columns: 7fr 5fr;
+    /* grid-template-columns: 7fr 5fr; */
 } 
 
-.sub-grid-container {
+/* .sub-grid-container {
     display: grid;
     grid-template-rows: 1fr 5fr 3fr;
     height: 100vh;
-}
+} */
 
 nav{
     display: flex;
     justify-content: space-around;
+    /* background-color: #2baa55; */
     align-items: center;
+    padding: 15px 0 ;
 }
 
 .heading {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    align-content: space-around;
-    font-size: 5vw;
+    flex-direction: column;
+    /* background-color: #009432; */
+    /* flex-flow: row wrap; */
+    justify-content: center;
+    align-items: center;
     font-family: monospace;
+    margin-top: 40px;
 }
 
 .heading > h1 {
-    position: absolute;
-    color: white;
-    z-index: 1;
-    left: 25%;
+    font-size: 120px;
+    word-break: break-word;
+    margin-top: 10px;
+    text-align: center;
 }
 
-.black {
-    color: black;
-}
-
-.random {
+/* .random {
     background-color: #009432;
     color: white;
-    position: absolute;
-    top: 84%;
-    left: 30%;
-    transform: translate(-30%,-84%);
-    padding: 50px 140px;
+    padding: 30px 80px;
     border-radius: 20px;
+    margin-top: 20px;
     letter-spacing: 2px;
-}
+} */
 
 a {
     text-decoration: none;
@@ -95,7 +95,7 @@ img {
     width: 100%;
 }
 
-.one, .two, .three {
+/* .one, .two, .three {
     position: absolute;
     width: 200px;
     height: 170px;
@@ -118,7 +118,7 @@ img {
     top: 0%;
     left: 15%;
     transform: translateX(-15%);
-}
+} */
 
 .cart-overlay {
     position: fixed;
@@ -247,6 +247,9 @@ img {
     }
     .cart-overlay{
         width: 100vw;
+    }
+    .heading > h1 {
+        font-size: 60px;
     }
 }
 
